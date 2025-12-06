@@ -1,0 +1,18 @@
+SMAP
+booking_jsp.java
+JSP
+*S JSP
+*F
++ 0 booking.jsp
+USER MODULE/booking.jsp
+*L
+1,91:45
+92,42:137
+133:179
+134,3:180,3
+137:189
+138,8:190,3
+146,2:214
+148,16:217
+163,79:233
+*E
