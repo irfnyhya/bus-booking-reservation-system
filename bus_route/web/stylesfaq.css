@@ -1,0 +1,128 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    transition: margin-left 0.3s;
+}
+
+/* Header Styling */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Navigation Styling */
+nav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    padding-top: 60px;
+    overflow-x: hidden;
+    transition: width 0.3s;
+}
+
+nav a {
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #575757;
+}
+
+/* Main Content Styling */
+main {
+    margin-left: 260px; /* Same as the width of the sidebar */
+    padding: 20px;
+    transition: margin-left 0.3s;
+    flex: 1;
+}
+
+.content {
+    display: none;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.content.active {
+    display: block;
+}
+
+h2 {
+    color: #4CAF50;
+    margin-bottom: 15px;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Sidebar Collapse/Expand Styling */
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.open-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 30px;
+    color: #333;
+    cursor: pointer;
+}
+
+#sidebar.collapsed {
+    width: 0;
+    padding-top: 60px;
+}
+
+#sidebar.collapsed a {
+    display: none;
+}
+
+#sidebar.collapsed .close-btn {
+    display: none;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto;
+}

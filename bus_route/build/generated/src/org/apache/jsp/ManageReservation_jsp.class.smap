@@ -1,0 +1,20 @@
+SMAP
+ManageReservation_jsp.java
+JSP
+*S JSP
+*F
++ 0 ManageReservation.jsp
+ManageReservation.jsp
+*L
+1,189:45
+190,36:235
+225:271
+226,9:272,3
+235,2:299
+237:301,3
+238:304
+239,3:305,3
+242,7:314
+249,25:322
+273,52:347
+*E
